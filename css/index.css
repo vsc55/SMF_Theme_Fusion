@@ -3055,7 +3055,7 @@ h3 .collapse {
 .board_stats2 {
 	background-color: #E67E22;
 	width: 15%;
-	margin: 5px 0 0 auto;
+	margin: 0 0 0 auto;
 	text-align: center;
 }
 .board_description {
@@ -3067,7 +3067,7 @@ h3 .collapse {
 	padding-top: 3px;
 	padding-left: 20px;
 }
-.board_icon, .info, .board_stats, .lastpost {
+.board_icon, .info, .board_stats, .board_stats2, .lastpost {
 	display: inline-block;
 	align-self: center;
 }
