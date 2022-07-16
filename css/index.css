@@ -2888,7 +2888,9 @@ dl.addrules dt.floatleft {
 
 /* Highlight the target item */
 .windowbg:target {
-	background: #ffffe0;
+	/* background: #ffffe0; */
+	/* background: #3d3a3a;; */
+	background: #1b1a1a;;
 }
 
 /* Add some hover on table rows */
@@ -3442,7 +3444,7 @@ img.avatar {
 }
 .subject_title a {
 	font-size: 0.9em;
-	color: #333;
+	/* color: #333; */
 	font-weight: bold;
 }
 .subject_hidden a {
@@ -3788,6 +3790,11 @@ h3.titlebg, h4.titlebg, .titlebg, h3.subbg, h4.subbg, .subbg {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 }
+
+.title_bar strong, .title_bar .strong {
+	color: #fff;
+}
+
 
 /* Other */
 /* Information */
@@ -4315,4 +4322,10 @@ img.theme_thumbnail {
     .stats_flex {
         flex: 1;
     }
+}
+
+/****** Custom ******/
+#top img {
+	position: absolute;
+	top: 55px;
 }
